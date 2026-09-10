@@ -403,7 +403,7 @@ import Map from "@arcgis/core/Map.js";
 import MapView from "@arcgis/core/views/MapView.js";
 import ImageryLayer from "@arcgis/core/layers/ImageryLayer.js";
 
-const IMAGE_SERVICE_URL = "<IMAGE_SERVICE_URL>"; // .../arcgis/rest/services/Viento_UV_Mosaico/ImageServer
+const IMAGE_SERVICE_URL = "<IMAGE_SERVICE_URL>"; // .../arcgis/rest/services/Viento-SoX/Viento_UV_Mosaico/ImageServer
 
 const vientoLayer = new ImageryLayer({
   url: IMAGE_SERVICE_URL,
